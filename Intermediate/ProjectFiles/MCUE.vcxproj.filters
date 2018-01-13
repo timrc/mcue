@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MCUE.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{8D8C1032-2121-4968-A642-F2DFD8A8F65E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MCUE.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MCUEEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0D93D682-78D8-49D0-B75A-1DE15AF2216F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MCUE">
+			<UniqueIdentifier>{A732B100-89AC-4EC2-B566-94CC290AA2BD}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\MCUE\Block.cpp">
+			<Filter>Source\MCUE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MCUE\Block.h">
+			<Filter>Source\MCUE</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\MCUE\MCUE.Build.cs">
+			<Filter>Source\MCUE</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MCUE\MCUE.cpp">
+			<Filter>Source\MCUE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MCUE\MCUE.h">
+			<Filter>Source\MCUE</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MCUE\MCUECharacter.cpp">
+			<Filter>Source\MCUE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MCUE\MCUECharacter.h">
+			<Filter>Source\MCUE</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MCUE\MCUEGameMode.cpp">
+			<Filter>Source\MCUE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MCUE\MCUEGameMode.h">
+			<Filter>Source\MCUE</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MCUE\MCUEHUD.cpp">
+			<Filter>Source\MCUE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MCUE\MCUEHUD.h">
+			<Filter>Source\MCUE</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MCUE\MCUEProjectile.cpp">
+			<Filter>Source\MCUE</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MCUE\MCUEProjectile.h">
+			<Filter>Source\MCUE</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
