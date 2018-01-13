@@ -2073,3 +2073,233 @@ LogInit: Object subsystem initialized
 [2018.01.13-16.14.22:817][747]LogOutputDevice: Error: [Callstack] 0x00000000140F0D51 ntdll.dll!UnknownFunction []
 [2018.01.13-16.14.22:817][747]LogOutputDevice: Error: 
 [2018.01.13-16.14.22:825][747]LogStats:                SubmitErrorReport -  0.000 s
+[2018.01.13-16.14.29:820][747]LogStats:                    SendNewReport -  6.996 s
+[2018.01.13-16.14.29:820][747]LogStats:             FDebug::EnsureFailed -  7.812 s
+[2018.01.13-16.14.29:832][748]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.13-16.14.31:167][752]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.13-16.14.34:080][ 80]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.01.13-16.15.00:409][195]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Source/MCUE/MCUECharacter.h'
+[2018.01.13-16.15.00:470][195]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Source/MCUE/MCUECharacter.cpp'
+[2018.01.13-16.16.30:149][808]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.13-16.16.30:158][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.16.30:158][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-16.16.30:158][808]PIE: New page: PIE session: FirstPersonExampleMap (13 Jan 2018 16:16:30)
+[2018.01.13-16.16.30:158][808]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-16.16.30:171][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012544s)
+[2018.01.13-16.16.30:171][808]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-16.16.30:171][808]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2018.01.13-16.16.30:172][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013533s)
+[2018.01.13-16.16.30:234][808]LogInit: XAudio2 using '24MP55-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-16.16.30:245][808]LogInit: FAudioDevice initialized.
+[2018.01.13-16.16.30:275][808]LogLoad: Game class is 'MCUEGameMode'
+[2018.01.13-16.16.30:276][808]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.13-16.16.30
+[2018.01.13-16.16.30:277][808]LogWorld: Bringing up level for play took: 0.001368
+[2018.01.13-16.16.30:277][808]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.021
+[2018.01.13-16.16.30:277][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.16.34:613][326]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.16.34:651][326]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.16.38:780][815]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.13-16.16.50:601][179]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.13-16.16.51:058][232]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.01.13-16.16.58:746][100]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.01.13-16.16.58:760][100]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.16.58:929][100]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.16.58:983][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.13-16.16.59:967][136]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.01.13-16.16.59:967][136]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.01.13-16.16.59:967][136]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.16.59:967][136]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.13-16.16.59:967][136]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.17.06:094][745]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.13-16.17.21:018][482]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.17.21:845][536]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.17.21:845][536]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.17.21:845][536]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.17.21:845][536]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.17.31:265][610]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.17.31:275][610]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.01.13-16.17.31:885][640]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.17.31:885][640]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.17.31:885][640]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.17.31:885][640]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.17.42:460][801]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.17.42:477][801]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.01.13-16.17.43:119][830]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.17.43:119][830]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.17.43:119][830]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.17.43:119][830]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.17.59:061][601]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.17.59:073][601]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.17.59:114][601]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.01.13-16.17.59:722][626]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.17.59:722][626]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.17.59:723][626]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.17.59:723][626]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.18.04:530][170]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.18.05:137][200]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.18.05:137][200]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.18.05:137][200]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.18.05:137][200]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.18.13:591][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2018.01.13-16.18.24:378][445]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.18.24:390][445]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2018.01.13-16.18.25:016][474]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.18.25:016][474]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.18.25:016][474]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.18.25:016][474]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.18.33:171][426]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.18.33:802][460]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.18.33:802][460]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.18.33:802][460]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.18.33:802][460]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.18.38:911][ 44]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.18.39:529][ 75]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.18.39:529][ 75]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.18.39:529][ 75]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.18.39:529][ 75]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.18.41:981][350]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.18.42:617][382]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.18.42:617][382]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.18.42:617][382]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.18.42:617][382]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.19.00:502][429]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.19.01:162][459]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.19.01:162][459]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.19.01:162][459]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.19.01:162][459]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.19.19:379][523]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.19.19:391][523]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.19.20:002][553]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.19.20:002][553]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.19.20:002][553]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.19.20:002][553]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.19.24:571][ 75]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.19.25:180][107]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.19.25:180][107]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.19.25:180][107]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.19.25:180][107]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.19.25:893][188]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.19.26:522][221]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.19.26:522][221]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.19.26:522][221]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.19.26:522][221]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.19.28:826][483]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.19.28:844][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.13-16.19.29:479][510]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.01.13-16.19.29:479][510]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.01.13-16.19.29:479][510]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.13-16.19.29:479][510]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.13-16.19.31:714][764]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.19.32:373][797]MaterialEditorStats: Base pass shader: 105 instructions
+[2018.01.13-16.19.32:374][797]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 178 instructions
+[2018.01.13-16.19.32:374][797]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.19.32:374][797]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.13-16.19.32:374][797]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.19.46:825][405]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.19.47:481][437]MaterialEditorStats: Base pass shader: 105 instructions
+[2018.01.13-16.19.47:481][437]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 178 instructions
+[2018.01.13-16.19.47:481][437]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.19.47:481][437]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.13-16.19.47:481][437]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.19.49:176][625]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.19.49:834][658]MaterialEditorStats: Base pass shader: 105 instructions
+[2018.01.13-16.19.49:834][658]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 178 instructions
+[2018.01.13-16.19.49:834][658]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.19.49:834][658]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.13-16.19.49:834][658]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.19.56:413][410]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.19.57:060][443]MaterialEditorStats: Base pass shader: 105 instructions
+[2018.01.13-16.19.57:060][443]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 178 instructions
+[2018.01.13-16.19.57:060][443]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.19.57:060][443]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.13-16.19.57:060][443]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.19.59:917][759]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.20.00:560][791]MaterialEditorStats: Base pass shader: 105 instructions
+[2018.01.13-16.20.00:560][791]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 178 instructions
+[2018.01.13-16.20.00:560][791]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.20.00:560][791]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.13-16.20.00:560][791]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.20.04:471][232]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.20.05:106][264]MaterialEditorStats: Base pass shader: 105 instructions
+[2018.01.13-16.20.05:106][264]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 178 instructions
+[2018.01.13-16.20.05:106][264]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.20.05:106][264]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.13-16.20.05:106][264]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.20.07:176][499]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.20.07:822][531]MaterialEditorStats: Base pass shader: 105 instructions
+[2018.01.13-16.20.07:822][531]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 178 instructions
+[2018.01.13-16.20.07:822][531]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.20.07:822][531]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.13-16.20.07:822][531]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.20.22:974][278]LogMaterialEditor: Saving and Compiling material M_Grass
+[2018.01.13-16.20.23:799][278]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.20.23:832][278]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.20.23:857][278]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.20.23:918][278]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grass, compiling. 
+[2018.01.13-16.20.24:357][278]TextureStreamingBuild: Display: Compiling optional shaders took 0.462 seconds.
+[2018.01.13-16.20.25:777][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/M_Grass" FILE="C:/Users/Tim/Documents/Unreal Projects/MCUE/Content/Assets/Materials/M_Grass.uasset" SILENT=true
+[2018.01.13-16.20.25:796][278]LogSavePackage: Save=12.33ms
+[2018.01.13-16.20.25:796][278]LogSavePackage: Moving 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/M_Grass322118814FFAA322FDB0D48B1C47EE64.tmp' to 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Content/Assets/Materials/M_Grass.uasset'
+[2018.01.13-16.20.25:802][278]LogSavePackage: Display: Finished SavePackage C:/Users/Tim/Documents/Unreal Projects/MCUE/Content/Assets/Materials/M_Grass.uasset
+[2018.01.13-16.20.25:807][278]MaterialEditorStats: Base pass shader: 105 instructions
+[2018.01.13-16.20.25:807][278]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 178 instructions
+[2018.01.13-16.20.25:807][278]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.20.25:807][278]MaterialEditorStats: Texture samplers: 5/16
+[2018.01.13-16.20.25:807][278]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.20.27:271][437]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.20.27:922][469]MaterialEditorStats: Base pass shader: 105 instructions
+[2018.01.13-16.20.27:922][469]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 178 instructions
+[2018.01.13-16.20.27:922][469]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.20.27:922][469]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.13-16.20.27:922][469]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.20.29:609][653]LogMaterialEditor: Saving and Compiling material M_Grass
+[2018.01.13-16.20.29:917][653]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.20.29:953][653]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.20.29:978][653]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2018.01.13-16.20.30:026][653]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grass, compiling. 
+[2018.01.13-16.20.30:446][653]TextureStreamingBuild: Display: Compiling optional shaders took 0.426 seconds.
+[2018.01.13-16.20.31:859][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/M_Grass" FILE="C:/Users/Tim/Documents/Unreal Projects/MCUE/Content/Assets/Materials/M_Grass.uasset" SILENT=true
+[2018.01.13-16.20.31:874][653]LogSavePackage: Save=12.04ms
+[2018.01.13-16.20.31:874][653]LogSavePackage: Moving 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/M_Grass97E5E4BD406FD71BE8BDB9800CDB0C09.tmp' to 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Content/Assets/Materials/M_Grass.uasset'
+[2018.01.13-16.20.31:877][653]LogSavePackage: Display: Finished SavePackage C:/Users/Tim/Documents/Unreal Projects/MCUE/Content/Assets/Materials/M_Grass.uasset
+[2018.01.13-16.20.31:882][653]MaterialEditorStats: Base pass shader: 105 instructions
+[2018.01.13-16.20.31:883][653]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 178 instructions
+[2018.01.13-16.20.31:883][653]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.20.31:883][653]MaterialEditorStats: Texture samplers: 5/16
+[2018.01.13-16.20.31:883][653]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.21.17:678][855]LogSavePackage: Save=131.01ms
+[2018.01.13-16.21.17:678][855]LogSavePackage: Moving 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/FirstPersonExampleMap_Auto726DEEDFE42A64F17D6A02F9FCC819318.tmp' to 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto7.umap'
+[2018.01.13-16.21.17:679][855]LogSavePackage: Display: Finished SavePackage C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto7.umap
+[2018.01.13-16.21.17:681][855]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.159
+[2018.01.13-16.21.17:681][855]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.159
+[2018.01.13-16.21.17:682][855]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Meshes/Wieldables/Pickaxe_Skeleton] ([1] browsable assets)...
+[2018.01.13-16.21.17:682][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/Wieldables/Pickaxe_Skeleton]
+[2018.01.13-16.21.17:688][855]LogSavePackage: Save=3.27ms
+[2018.01.13-16.21.17:689][855]LogSavePackage: Moving 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/Pickaxe_Skeleton_Auto735F674E94EAE7CB942B3F5898394498B.tmp' to 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/Autosaves/Game/Assets/Meshes/Wieldables/Pickaxe_Skeleton_Auto7.uasset'
+[2018.01.13-16.21.17:689][855]LogSavePackage: Display: Finished SavePackage C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/Autosaves/Game/Assets/Meshes/Wieldables/Pickaxe_Skeleton_Auto7.uasset
+[2018.01.13-16.21.17:690][855]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/Wieldables/Pickaxe_PhysicsAsset] ([1] browsable assets)...
+[2018.01.13-16.21.17:702][855]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Assets/Meshes/Wieldables/Pickaxe_PhysicsAsset.Pickaxe_PhysicsAsset]
+[2018.01.13-16.21.17:702][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/Wieldables/Pickaxe_PhysicsAsset]
+[2018.01.13-16.21.17:713][855]LogSavePackage: Save=9.36ms
+[2018.01.13-16.21.17:713][855]LogSavePackage: Moving 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/Pickaxe_PhysicsAsset_Auto75BBFE5E74F96F030595877A132041F88.tmp' to 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/Autosaves/Game/Assets/Meshes/Wieldables/Pickaxe_PhysicsAsset_Auto7.uasset'
+[2018.01.13-16.21.17:714][855]LogSavePackage: Display: Finished SavePackage C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/Autosaves/Game/Assets/Meshes/Wieldables/Pickaxe_PhysicsAsset_Auto7.uasset
+[2018.01.13-16.21.17:714][855]LogFileHelpers: Auto-saving content packages took 0.032
+[2018.01.13-16.22.30:549][265]LogRenderer: Reallocating scene render targets to support 1208x592 Format 10 NumSamples 1 (Frame:455889).
+[2018.01.13-16.22.30:637][266]LogRenderer: Reallocating scene render targets to support 1208x644 Format 10 NumSamples 1 (Frame:455893).
+[2018.01.13-16.22.30:713][267]LogRenderer: Reallocating scene render targets to support 1208x684 Format 10 NumSamples 1 (Frame:455897).
+[2018.01.13-16.22.30:788][268]LogRenderer: Reallocating scene render targets to support 1208x688 Format 10 NumSamples 1 (Frame:455901).
+[2018.01.13-16.22.30:862][269]LogRenderer: Reallocating scene render targets to support 1208x696 Format 10 NumSamples 1 (Frame:455905).
+[2018.01.13-16.22.36:067][749]LogRenderer: Reallocating scene render targets to support 1212x696 Format 10 NumSamples 1 (Frame:456904).
+[2018.01.13-16.22.36:107][750]LogRenderer: Reallocating scene render targets to support 1216x696 Format 10 NumSamples 1 (Frame:456907).
+[2018.01.13-16.22.36:147][750]LogRenderer: Reallocating scene render targets to support 1224x696 Format 10 NumSamples 1 (Frame:456910).
+[2018.01.13-16.22.36:475][751]LogRenderer: Reallocating scene render targets to support 1244x696 Format 10 NumSamples 1 (Frame:456912).
+[2018.01.13-16.22.36:758][773]LogRenderer: Reallocating scene render targets to support 1248x696 Format 10 NumSamples 1 (Frame:456957).
+[2018.01.13-16.23.25:825][597]LogMaterial: Missing cached shader map for material M_Pickaxe_Diamond, compiling. 
+[2018.01.13-16.23.25:912][597]LogMaterial: Missing cached shader map for material M_Pickaxe_Diamond, compiling. 
+[2018.01.13-16.23.25:942][597]LogMaterial: Missing cached shader map for material M_Pickaxe_Diamond, compiling. 
+[2018.01.13-16.23.25:999][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.13-16.23.28:478][704]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.01.13-16.23.28:478][704]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.01.13-16.23.28:478][704]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.13-16.23.28:478][704]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.13-16.23.28:478][704]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)

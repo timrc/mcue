@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Block.h"
+#include "Engine.h"
 #include "MCUECharacter.generated.h"
 
 class UInputComponent;
@@ -50,6 +52,8 @@ public:
 
 protected:
 	virtual void BeginPlay();
+
+	virtual void Tick(float DeltaTime) override;
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
@@ -131,6 +135,16 @@ protected:
 	 * @returns true if touch controls were enabled.
 	 */
 	bool EnableTouchscreenMovement(UInputComponent* InputComponent);
+
+private:
+	/* Check if there is a block in front of a player */
+	void CheckForBlocks();
+
+	/* Stores the block currently being looked at by the player */
+	ABlock *CurrentBlock;
+
+	/* The character reach */
+	float Reach;
 
 public:
 	/** Returns Mesh1P subobject **/

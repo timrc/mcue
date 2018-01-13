@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeMCUE_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/MCUE",
 				PKG_CompiledIn | 0x00000000,
-				0x8F257992,
+				0xB34DFFE3,
 				0xB441D2AD,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

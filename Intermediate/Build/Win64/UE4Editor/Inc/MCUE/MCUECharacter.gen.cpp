@@ -165,14 +165,14 @@ void EmptyLinkFunctionForGeneratedCodeMCUECharacter() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FP_MuzzleLocation = { UE4CodeGen_Private::EPropertyClass::Object, "FP_MuzzleLocation", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AMCUECharacter, FP_MuzzleLocation), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(NewProp_FP_MuzzleLocation_MetaData, ARRAY_COUNT(NewProp_FP_MuzzleLocation_MetaData)) };
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FP_Gun_MetaData[] = {
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FP_WieldedItem_MetaData[] = {
 				{ "Category", "Mesh" },
 				{ "EditInline", "true" },
 				{ "ModuleRelativePath", "MCUECharacter.h" },
 				{ "ToolTip", "Gun mesh: 1st person view (seen only by self)" },
 			};
 #endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FP_Gun = { UE4CodeGen_Private::EPropertyClass::Object, "FP_Gun", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AMCUECharacter, FP_Gun), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(NewProp_FP_Gun_MetaData, ARRAY_COUNT(NewProp_FP_Gun_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FP_WieldedItem = { UE4CodeGen_Private::EPropertyClass::Object, "FP_WieldedItem", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AMCUECharacter, FP_WieldedItem), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(NewProp_FP_WieldedItem_MetaData, ARRAY_COUNT(NewProp_FP_WieldedItem_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh1P_MetaData[] = {
 				{ "Category", "Mesh" },
@@ -196,7 +196,7 @@ void EmptyLinkFunctionForGeneratedCodeMCUECharacter() {}
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_VR_MuzzleLocation,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_VR_Gun,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_FP_MuzzleLocation,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_FP_Gun,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_FP_WieldedItem,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Mesh1P,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -217,7 +217,7 @@ void EmptyLinkFunctionForGeneratedCodeMCUECharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMCUECharacter, 1127256510);
+	IMPLEMENT_CLASS(AMCUECharacter, 193711686);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMCUECharacter(Z_Construct_UClass_AMCUECharacter, &AMCUECharacter::StaticClass, TEXT("/Script/MCUE"), TEXT("AMCUECharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMCUECharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

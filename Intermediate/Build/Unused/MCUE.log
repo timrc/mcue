@@ -1,0 +1,9 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading MCUEEditor (no existing makefile)
+  Compiling game modules for hot reload
+  Performing full C++ include scan (no include cache file)
+  Parsing headers for MCUEEditor
+    Running UnrealHeaderTool "C:\Users\Tim\Documents\Unreal Projects\MCUE\MCUE.uproject" "C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\MCUEEditor\Development\MCUEEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+C:/Users/Tim/Documents/Unreal Projects/MCUE/Source/MCUE/MCUECharacter.h(8): error : #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+EXEC : error : UnrealHeaderTool failed for target 'MCUEEditor' (platform: Win64, module info: C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\MCUEEditor\Development\MCUEEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""G:\Games\Epic Games\UE_4.18\Engine\Build\BatchFiles\Build.bat" MCUEEditor Win64 Development "C:\Users\Tim\Documents\Unreal Projects\MCUE\MCUE.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.
