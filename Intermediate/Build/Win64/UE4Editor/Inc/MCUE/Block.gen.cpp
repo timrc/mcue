@@ -42,14 +42,30 @@ void EmptyLinkFunctionForGeneratedCodeBlock() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BreakingStage_MetaData[] = {
+				{ "Category", "Block" },
+				{ "ModuleRelativePath", "Block.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BreakingStage = { UE4CodeGen_Private::EPropertyClass::Float, "BreakingStage", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000004, 1, nullptr, STRUCT_OFFSET(ABlock, BreakingStage), METADATA_PARAMS(NewProp_BreakingStage_MetaData, ARRAY_COUNT(NewProp_BreakingStage_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Resistance_MetaData[] = {
+				{ "Category", "Block" },
+				{ "ModuleRelativePath", "Block.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Resistance = { UE4CodeGen_Private::EPropertyClass::Float, "Resistance", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000010001, 1, nullptr, STRUCT_OFFSET(ABlock, Resistance), METADATA_PARAMS(NewProp_Resistance_MetaData, ARRAY_COUNT(NewProp_Resistance_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SM_Block_MetaData[] = {
 				{ "Category", "Block" },
 				{ "EditInline", "true" },
 				{ "ModuleRelativePath", "Block.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SM_Block = { UE4CodeGen_Private::EPropertyClass::Object, "SM_Block", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000090009, 1, nullptr, STRUCT_OFFSET(ABlock, SM_Block), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_SM_Block_MetaData, ARRAY_COUNT(NewProp_SM_Block_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SM_Block = { UE4CodeGen_Private::EPropertyClass::Object, "SM_Block", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000090009, 1, nullptr, STRUCT_OFFSET(ABlock, SM_Block), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_SM_Block_MetaData, ARRAY_COUNT(NewProp_SM_Block_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_BreakingStage,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Resistance,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SM_Block,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -70,7 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABlock, 806885940);
+	IMPLEMENT_CLASS(ABlock, 2136275764);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABlock(Z_Construct_UClass_ABlock, &ABlock::StaticClass, TEXT("/Script/MCUE"), TEXT("ABlock"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABlock);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

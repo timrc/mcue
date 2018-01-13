@@ -2303,3 +2303,243 @@ LogInit: Object subsystem initialized
 [2018.01.13-16.23.28:478][704]MaterialEditorStats: Vertex shader: 31 instructions
 [2018.01.13-16.23.28:478][704]MaterialEditorStats: Texture samplers: 3/16
 [2018.01.13-16.23.28:478][704]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-16.43.53:175][280]Candidate modules for hot reload:
+[2018.01.13-16.43.53:175][280]  MCUE
+[2018.01.13-16.43.53:175][280]Launching UnrealBuildTool... [G:/Games/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe MCUE -ModuleWithSuffix MCUE 5410 Win64 Development -editorrecompile -canskiplink "C:/Users/Tim/Documents/Unreal Projects/MCUE/MCUE.uproject" ]
+[2018.01.13-16.43.53:226][280]Warning: Starting HotReload took  0.1s.
+[2018.01.13-16.43.57:653][806]CompilerResultsLog: New page: Compilation - 13 Jan 2018 16:43:57
+[2018.01.13-16.43.57:653][806]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.01.13-16.43.57:653][806]CompilerResultsLog: Creating makefile for hot reloading MCUE (no existing makefile)
+[2018.01.13-16.43.57:653][806]CompilerResultsLog: Compiling game modules for hot reload
+[2018.01.13-16.43.57:653][806]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2018.01.13-16.43.57:653][806]CompilerResultsLog: Parsing headers for MCUEEditor
+[2018.01.13-16.43.57:653][806]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tim\Documents\Unreal Projects\MCUE\MCUE.uproject" "C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\MCUEEditor\Development\MCUEEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.01.13-16.43.57:653][806]CompilerResultsLog: Error: C:/Users/Tim/Documents/Unreal Projects/MCUE/Source/MCUE/MCUECharacter.h(8) : Error: #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+[2018.01.13-16.43.57:653][806]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'MCUEEditor' (platform: Win64, module info: C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\MCUEEditor\Development\MCUEEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.01.13-16.43.57:653][806]LogMainFrame: MainFrame: Module compiling took 4.481 seconds
+[2018.01.13-16.43.57:653][806]Warning: HotReload failed, recompile failed
+[2018.01.13-16.44.30:250][471]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Source/MCUE/MCUECharacter.h'
+[2018.01.13-16.44.30:283][471]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Source/MCUE/MCUECharacter.cpp'
+[2018.01.13-16.44.35:837][810]Candidate modules for hot reload:
+[2018.01.13-16.44.35:837][810]  MCUE
+[2018.01.13-16.44.35:837][810]Launching UnrealBuildTool... [G:/Games/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe MCUE -ModuleWithSuffix MCUE 9334 Win64 Development -editorrecompile -canskiplink "C:/Users/Tim/Documents/Unreal Projects/MCUE/MCUE.uproject" ]
+[2018.01.13-16.44.35:896][810]Warning: Starting HotReload took  0.1s.
+[2018.01.13-16.44.40:581][363]CompilerResultsLog: New page: Compilation - 13 Jan 2018 16:44:40
+[2018.01.13-16.44.40:581][363]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.01.13-16.44.40:581][363]CompilerResultsLog: Creating makefile for hot reloading MCUE (no existing makefile)
+[2018.01.13-16.44.40:581][363]CompilerResultsLog: Compiling game modules for hot reload
+[2018.01.13-16.44.40:581][363]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2018.01.13-16.44.40:581][363]CompilerResultsLog: Parsing headers for MCUEEditor
+[2018.01.13-16.44.40:581][363]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tim\Documents\Unreal Projects\MCUE\MCUE.uproject" "C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\MCUEEditor\Development\MCUEEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.01.13-16.44.40:581][363]CompilerResultsLog: Error: C:/Users/Tim/Documents/Unreal Projects/MCUE/Source/MCUE/MCUECharacter.h(8) : Error: #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+[2018.01.13-16.44.40:581][363]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'MCUEEditor' (platform: Win64, module info: C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\MCUEEditor\Development\MCUEEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.01.13-16.44.40:581][363]LogMainFrame: MainFrame: Module compiling took 4.746 seconds
+[2018.01.13-16.44.40:581][363]Warning: HotReload failed, recompile failed
+[2018.01.13-16.45.02:561][206]Candidate modules for hot reload:
+[2018.01.13-16.45.02:561][206]  MCUE
+[2018.01.13-16.45.02:561][206]Launching UnrealBuildTool... [G:/Games/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe MCUE -ModuleWithSuffix MCUE 5825 Win64 Development -editorrecompile -canskiplink "C:/Users/Tim/Documents/Unreal Projects/MCUE/MCUE.uproject" ]
+[2018.01.13-16.45.02:614][206]Warning: Starting HotReload took  0.1s.
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: New page: Compilation - 13 Jan 2018 16:45:55
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: Creating makefile for hot reloading MCUE (no existing makefile)
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: Compiling game modules for hot reload
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: Parsing headers for MCUEEditor
+[2018.01.13-16.45.55:224][382]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tim\Documents\Unreal Projects\MCUE\MCUE.uproject" "C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\MCUEEditor\Development\MCUEEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: Reflection code generated for MCUEEditor in 7.5881428 seconds
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: Performing 17 actions (9 in parallel)
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: [2/17] Resource PCLaunch.rc
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: [3/17] Resource ModuleVersionResource.rc.inl
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: SharedPCH.Engine.cpp
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: MCUECharacter.gen.cpp
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: Block.gen.cpp
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: MCUE.init.gen.cpp
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: Block.cpp
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: MCUEProjectile.cpp
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: MCUECharacter.cpp
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: MCUEHUD.cpp
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: MCUE.cpp
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: MCUEGameMode.cpp
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: MCUEGameMode.gen.cpp
+[2018.01.13-16.45.55:224][382]CompilerResultsLog: MCUEHUD.gen.cpp
+[2018.01.13-16.45.55:225][382]CompilerResultsLog: MCUEProjectile.gen.cpp
+[2018.01.13-16.45.55:225][382]CompilerResultsLog: [16/17] Link UE4Editor-MCUE-5825.dll
+[2018.01.13-16.45.55:225][382]CompilerResultsLog: [17/17] Link UE4Editor-MCUE-5825.lib
+[2018.01.13-16.45.55:225][382]CompilerResultsLog:    Creating library C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-5825.lib and object C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-5825.exp
+[2018.01.13-16.45.55:225][382]CompilerResultsLog:    Creating library C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-5825.suppressed.lib and object C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-5825.suppressed.exp
+[2018.01.13-16.45.55:225][382]CompilerResultsLog: Total build time: 52.43 seconds (Local executor: 40.64 seconds)
+[2018.01.13-16.45.55:225][382]LogMainFrame: MainFrame: Module compiling took 52.666 seconds
+[2018.01.13-16.45.55:295][382]LogClass: Could not find existing class MCUECharacter in package /Script/MCUE for HotReload, assuming new class
+[2018.01.13-16.45.55:355][382]LogHotReload: Re-instancing MCUECharacter after hot-reload.
+[2018.01.13-16.45.55:627][382]LogContentBrowser: Native class hierarchy updated for 'MCUE' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2018.01.13-16.45.55:635][382]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.01.13-16.45.55:842][382]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2378 classes and 530 folders.
+[2018.01.13-16.45.55:842][382]Display: HotReload took 53.3s.
+[2018.01.13-16.45.59:550][825]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.13-16.45.59:560][825]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.45.59:560][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-16.45.59:560][825]PIE: New page: PIE session: FirstPersonExampleMap (13 Jan 2018 16:45:59)
+[2018.01.13-16.45.59:560][825]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-16.45.59:579][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018334s)
+[2018.01.13-16.45.59:579][825]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-16.45.59:579][825]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2018.01.13-16.45.59:580][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019356s)
+[2018.01.13-16.45.59:645][825]LogInit: XAudio2 using '24MP55-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-16.45.59:650][825]LogInit: FAudioDevice initialized.
+[2018.01.13-16.45.59:678][825]LogLoad: Game class is 'MCUEGameMode'
+[2018.01.13-16.45.59:680][825]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.13-16.45.59
+[2018.01.13-16.45.59:681][825]LogWorld: Bringing up level for play took: 0.001307
+[2018.01.13-16.45.59:681][825]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.425
+[2018.01.13-16.45.59:681][825]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.47.42:153][ 99]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.47.42:183][ 99]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.47.46:046][550]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.01.13-16.48.19:880][795]LogEditorViewport: Clicking on Component (LMB): CameraComponent (FirstPersonCamera)
+[2018.01.13-16.48.24:644][352]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.13-16.48.24:653][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.48.24:653][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-16.48.24:653][352]PIE: New page: PIE session: FirstPersonExampleMap (13 Jan 2018 16:48:24)
+[2018.01.13-16.48.24:653][352]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-16.48.24:667][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013393s)
+[2018.01.13-16.48.24:667][352]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-16.48.24:668][352]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2018.01.13-16.48.24:668][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014254s)
+[2018.01.13-16.48.24:709][352]LogInit: XAudio2 using '24MP55-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-16.48.24:714][352]LogInit: FAudioDevice initialized.
+[2018.01.13-16.48.24:739][352]LogLoad: Game class is 'MCUEGameMode'
+[2018.01.13-16.48.24:741][352]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.13-16.48.24
+[2018.01.13-16.48.24:741][352]LogWorld: Bringing up level for play took: 0.001321
+[2018.01.13-16.48.24:742][352]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.515
+[2018.01.13-16.48.24:742][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.48.26:439][553]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.48.26:473][553]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.48.30:837][ 63]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.01.13-16.48.58:659][524]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.13-16.48.58:668][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.48.58:668][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-16.48.58:668][524]PIE: New page: PIE session: FirstPersonExampleMap (13 Jan 2018 16:48:58)
+[2018.01.13-16.48.58:668][524]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-16.48.58:683][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014465s)
+[2018.01.13-16.48.58:683][524]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-16.48.58:683][524]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2018.01.13-16.48.58:684][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015344s)
+[2018.01.13-16.48.58:727][524]LogInit: XAudio2 using '24MP55-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-16.48.58:732][524]LogInit: FAudioDevice initialized.
+[2018.01.13-16.48.58:765][524]LogLoad: Game class is 'MCUEGameMode'
+[2018.01.13-16.48.58:767][524]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.13-16.48.58
+[2018.01.13-16.48.58:767][524]LogWorld: Bringing up level for play took: 0.001445
+[2018.01.13-16.48.58:768][524]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.489
+[2018.01.13-16.48.58:768][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.49.01:431][841]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.49.01:465][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.50.19:616][593]Candidate modules for hot reload:
+[2018.01.13-16.50.19:616][593]  MCUE
+[2018.01.13-16.50.19:616][593]Launching UnrealBuildTool... [G:/Games/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe MCUE -ModuleWithSuffix MCUE 4358 Win64 Development -editorrecompile -canskiplink "C:/Users/Tim/Documents/Unreal Projects/MCUE/MCUE.uproject" ]
+[2018.01.13-16.50.19:728][593]Warning: Starting HotReload took  0.1s.
+[2018.01.13-16.50.28:011][845]CompilerResultsLog: New page: Compilation - 13 Jan 2018 16:50:28
+[2018.01.13-16.50.28:011][845]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.01.13-16.50.28:011][845]CompilerResultsLog: Compiling game modules for hot reload
+[2018.01.13-16.50.28:011][845]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.01.13-16.50.28:011][845]CompilerResultsLog: MCUECharacter.cpp
+[2018.01.13-16.50.28:011][845]CompilerResultsLog: [2/3] Link UE4Editor-MCUE-4358.dll
+[2018.01.13-16.50.28:011][845]CompilerResultsLog: [3/3] Link UE4Editor-MCUE-4358.lib
+[2018.01.13-16.50.28:011][845]CompilerResultsLog:    Creating library C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-4358.lib and object C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-4358.exp
+[2018.01.13-16.50.28:011][845]CompilerResultsLog:    Creating library C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-4358.suppressed.lib and object C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-4358.suppressed.exp
+[2018.01.13-16.50.28:011][845]CompilerResultsLog: Total build time: 7.79 seconds (Local executor: 7.33 seconds)
+[2018.01.13-16.50.28:011][845]LogMainFrame: MainFrame: Module compiling took 8.399 seconds
+[2018.01.13-16.50.28:068][845]LogHotReload: Re-instancing MCUECharacter after hot-reload.
+[2018.01.13-16.50.28:244][845]LogContentBrowser: Native class hierarchy updated for 'MCUE' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2018.01.13-16.50.28:246][845]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.01.13-16.50.28:441][845]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2378 classes and 530 folders.
+[2018.01.13-16.50.28:441][845]Display: HotReload took  8.8s.
+[2018.01.13-16.50.31:777][ 50]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.13-16.50.31:789][ 50]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.50.31:789][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-16.50.31:789][ 50]PIE: New page: PIE session: FirstPersonExampleMap (13 Jan 2018 16:50:31)
+[2018.01.13-16.50.31:789][ 50]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-16.50.31:808][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018489s)
+[2018.01.13-16.50.31:808][ 50]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-16.50.31:809][ 50]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2018.01.13-16.50.31:809][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019451s)
+[2018.01.13-16.50.31:852][ 50]LogInit: XAudio2 using '24MP55-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-16.50.31:857][ 50]LogInit: FAudioDevice initialized.
+[2018.01.13-16.50.31:886][ 50]LogLoad: Game class is 'MCUEGameMode'
+[2018.01.13-16.50.31:888][ 50]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.13-16.50.31
+[2018.01.13-16.50.31:888][ 50]LogWorld: Bringing up level for play took: 0.001315
+[2018.01.13-16.50.31:889][ 50]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.632
+[2018.01.13-16.50.31:889][ 50]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.50.33:415][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.50.33:449][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.50.35:541][469]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2018.01.13-16.50.36:894][618]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.01.13-16.50.51:127][301]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.13-16.50.51:136][301]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.50.51:136][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-16.50.51:136][301]PIE: New page: PIE session: FirstPersonExampleMap (13 Jan 2018 16:50:51)
+[2018.01.13-16.50.51:136][301]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-16.50.51:151][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014946s)
+[2018.01.13-16.50.51:152][301]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-16.50.51:152][301]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2018.01.13-16.50.51:152][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015808s)
+[2018.01.13-16.50.51:195][301]LogInit: XAudio2 using '24MP55-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-16.50.51:199][301]LogInit: FAudioDevice initialized.
+[2018.01.13-16.50.51:232][301]LogLoad: Game class is 'MCUEGameMode'
+[2018.01.13-16.50.51:234][301]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.13-16.50.51
+[2018.01.13-16.50.51:234][301]LogWorld: Bringing up level for play took: 0.001389
+[2018.01.13-16.50.51:234][301]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.022
+[2018.01.13-16.50.51:235][301]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.51.00:120][858]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.51.00:151][858]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.51.03:082][200]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2018.01.13-16.53.12:447][282]Candidate modules for hot reload:
+[2018.01.13-16.53.12:447][282]  MCUE
+[2018.01.13-16.53.12:447][282]Launching UnrealBuildTool... [G:/Games/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe MCUE -ModuleWithSuffix MCUE 5263 Win64 Development -editorrecompile -canskiplink "C:/Users/Tim/Documents/Unreal Projects/MCUE/MCUE.uproject" ]
+[2018.01.13-16.53.12:497][282]Warning: Starting HotReload took  0.1s.
+[2018.01.13-16.53.23:468][589]CompilerResultsLog: New page: Compilation - 13 Jan 2018 16:53:23
+[2018.01.13-16.53.23:468][589]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.01.13-16.53.23:468][589]CompilerResultsLog: Compiling game modules for hot reload
+[2018.01.13-16.53.23:468][589]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.01.13-16.53.23:468][589]CompilerResultsLog: MCUECharacter.cpp
+[2018.01.13-16.53.23:468][589]CompilerResultsLog: [2/3] Link UE4Editor-MCUE-5263.dll
+[2018.01.13-16.53.23:468][589]CompilerResultsLog: [3/3] Link UE4Editor-MCUE-5263.lib
+[2018.01.13-16.53.23:468][589]CompilerResultsLog:    Creating library C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-5263.lib and object C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-5263.exp
+[2018.01.13-16.53.23:468][589]CompilerResultsLog:    Creating library C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-5263.suppressed.lib and object C:\Users\Tim\Documents\Unreal Projects\MCUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MCUE-5263.suppressed.exp
+[2018.01.13-16.53.23:468][589]CompilerResultsLog: Total build time: 10.81 seconds (Local executor: 10.34 seconds)
+[2018.01.13-16.53.23:468][589]LogMainFrame: MainFrame: Module compiling took 11.024 seconds
+[2018.01.13-16.53.23:524][589]LogHotReload: Re-instancing MCUECharacter after hot-reload.
+[2018.01.13-16.53.23:746][589]LogContentBrowser: Native class hierarchy updated for 'MCUE' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2018.01.13-16.53.23:748][589]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.01.13-16.53.23:944][589]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2378 classes and 530 folders.
+[2018.01.13-16.53.23:944][589]Display: HotReload took 11.5s.
+[2018.01.13-16.53.26:306][870]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.13-16.53.26:315][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-16.53.26:316][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-16.53.26:316][870]PIE: New page: PIE session: FirstPersonExampleMap (13 Jan 2018 16:53:26)
+[2018.01.13-16.53.26:316][870]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-16.53.26:330][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014045s)
+[2018.01.13-16.53.26:330][870]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-16.53.26:330][870]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2018.01.13-16.53.26:331][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015011s)
+[2018.01.13-16.53.26:372][870]LogInit: XAudio2 using '24MP55-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-16.53.26:377][870]LogInit: FAudioDevice initialized.
+[2018.01.13-16.53.26:404][870]LogLoad: Game class is 'MCUEGameMode'
+[2018.01.13-16.53.26:406][870]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.13-16.53.26
+[2018.01.13-16.53.26:406][870]LogWorld: Bringing up level for play took: 0.001338
+[2018.01.13-16.53.26:407][870]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.85
+[2018.01.13-16.53.26:407][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-17.01.03:989][336]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-17.01.04:018][336]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-17.01.04:918][413]LogEditorViewport: Clicking on Actor (context menu): BP_Block_Grass_C (BP_Block_Grass27)
+[2018.01.13-17.01.04:946][413]LogEditorViewport: Clicking on Actor (context menu): BP_Block_Grass_C (BP_Block_Grass27)
+[2018.01.13-17.01.13:712][143]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MCUE
+[2018.01.13-17.01.13:712][143]LogTemp: CWD: G:\Games\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.01.13-17.01.13:712][143]LogTemp: Initial Dir: G:\Games\Epic Games\UE_4.18
+[2018.01.13-17.01.13:712][143]LogTemp: Env CWD: G:\Games\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.01.13-17.01.13:712][143]LogTemp: BranchPath = DESKTOP-6NN3C1I/G/Games/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-6NN3C1I/G/Games/Epic Games/UE_4.18/Engine/Binaries
+[2018.01.13-17.01.13:712][143]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Tim\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.13-17.01.13:712][143]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.13-17.04.06:687][856]LogSavePackage: Save=127.28ms
+[2018.01.13-17.04.06:687][856]LogSavePackage: Moving 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/FirstPersonExampleMap_Auto810D3397A44C3601475EB259E5B0A7ACE.tmp' to 'C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto8.umap'
+[2018.01.13-17.04.06:690][856]LogSavePackage: Display: Finished SavePackage C:/Users/Tim/Documents/Unreal Projects/MCUE/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto8.umap
+[2018.01.13-17.04.06:692][856]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.158
+[2018.01.13-17.04.06:692][856]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.158

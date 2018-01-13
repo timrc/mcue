@@ -137,14 +137,32 @@ protected:
 	bool EnableTouchscreenMovement(UInputComponent* InputComponent);
 
 private:
+
+	/* True if player is breaking, false otherwise */
+	bool bIsBreaking;
+
+	/* Called when hitting with a tool */
+	void OnHit();
+	void EndHit();
+
+	/* Plays the mining animation */
+	void PlayHitAnim();
+
 	/* Check if there is a block in front of a player */
 	void CheckForBlocks();
+
+	/* Called when we want to break a block */
+	void BreakBlock();
 
 	/* Stores the block currently being looked at by the player */
 	ABlock *CurrentBlock;
 
 	/* The character reach */
 	float Reach;
+
+	/* Timer handles */
+	FTimerHandle BlockBreakingHandle;
+	FTimerHandle HitAnimHandle;
 
 public:
 	/** Returns Mesh1P subobject **/

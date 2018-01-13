@@ -124,13 +124,12 @@ void AMCUECharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInpu
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
-	// Bind fire event
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMCUECharacter::OnFire);
+	if (EnableTouchscreenMovement(PlayerInputComponent) == false) {
+		PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AMCUECharacter::OnHit);
+		PlayerInputComponent->BindAction("Interact", IE_Released, this, &AMCUECharacter::EndHit);
+	}
 
-	// Enable touchscreen input
-	EnableTouchscreenMovement(PlayerInputComponent);
-
-	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AMCUECharacter::OnResetVR);
+	// PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AMCUECharacter::OnResetVR);
 
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMCUECharacter::MoveForward);
@@ -272,6 +271,53 @@ bool AMCUECharacter::EnableTouchscreenMovement(class UInputComponent* PlayerInpu
 	return false;
 }
 
+void AMCUECharacter::OnHit()
+{
+	PlayHitAnim();
+
+	if (CurrentBlock != nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, *CurrentBlock->GetName());
+		bIsBreaking = true;
+
+		float TimeBetweenBreaks = ((CurrentBlock->Resistance / 100.f) / 2);
+
+		GetWorld()->GetTimerManager().SetTimer(BlockBreakingHandle, this, &AMCUECharacter::BreakBlock, TimeBetweenBreaks, true);
+		GetWorld()->GetTimerManager().SetTimer(HitAnimHandle, this, &AMCUECharacter::PlayHitAnim, 0.4f, true);
+	}
+	else {
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, "OnHit");
+	}
+}
+
+void AMCUECharacter::EndHit()
+{
+	GetWorld()->GetTimerManager().ClearTimer(BlockBreakingHandle);
+	GetWorld()->GetTimerManager().ClearTimer(HitAnimHandle);
+
+	bIsBreaking = false;
+
+	if (CurrentBlock != nullptr) 
+	{
+		CurrentBlock->ResetBlock();
+	}
+}
+
+void AMCUECharacter::PlayHitAnim()
+{
+
+	// try and play a firing animation if specified
+	if (FireAnimation != NULL)
+	{
+		// Get the animation object for the arms mesh
+		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+		if (AnimInstance != NULL)
+		{
+			AnimInstance->Montage_Play(FireAnimation, 1.f);
+		}
+	}
+}
+
 void AMCUECharacter::CheckForBlocks()
 {
 	FHitResult LinetraceHit;
@@ -286,7 +332,7 @@ void AMCUECharacter::CheckForBlocks()
 
 	ABlock* PotentialBlock = Cast<ABlock>(LinetraceHit.GetActor());
 
-	if (PotentialBlock == NULL) 
+	if (PotentialBlock == nullptr) 
 	{
 		CurrentBlock = nullptr;
 		return;
@@ -294,5 +340,13 @@ void AMCUECharacter::CheckForBlocks()
 	else
 	{
 		CurrentBlock = PotentialBlock;
+	}
+}
+
+void AMCUECharacter::BreakBlock()
+{
+	if (bIsBreaking && CurrentBlock != nullptr && !CurrentBlock->IsPendingKill())
+	{
+		CurrentBlock->Break();
 	}
 }
